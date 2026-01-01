@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+body.light {
+    background: #f4f4f4;
+    color: #111;
+}
+
+.dashboard {
+    background: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+}
+
+.clock {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#themeBtn {
+    background: #ff9800;
+    color: #000;
+}
+
+#quoteBtn {
+    background: #00e5ff;
+    color: #000;
+}
+
+.quote-box {
+    margin-top: 20px;
+}
